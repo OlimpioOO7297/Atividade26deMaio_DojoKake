@@ -24,6 +24,11 @@ public class Principal {
 			case 2:
 				verificarCandidato(numeroInscricao, candidatos);
 				break;
+				
+				
+			case 5:
+				finalizaPrograma();
+				break;
 			default:
 				break;
 			}
@@ -173,4 +178,9 @@ public class Principal {
 	}
 	
 	// Questão 08 - Francisco Olímpio / Gabriel Albuquerque
+	public static int finalizaPrograma(){
+		System.out.println("Programa encerrado!");
+		System.exit(0);
+		
+	}
 }
